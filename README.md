@@ -12,3 +12,4 @@
 Fully translated:
  
  - Mage_AdminNotification.csv
+ - Mage_Catalog.csv
