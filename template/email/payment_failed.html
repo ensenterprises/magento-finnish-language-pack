@@ -16,14 +16,14 @@
 <table>
     <thead>
     <tr>
-        <th>Payment transaction failed.</th>
+        <th>Maksutapahtuma epäonnistui.</th>
     </tr>
     </thead>
     <tbody>
     <tr>
         <td>
             <p>
-                <b>Reason</b><br />
+                <b>Syy</b><br />
                 {{var reason}}
             </p>
             <p>
@@ -31,35 +31,35 @@
                 {{var checkoutType}}
             </p>
             <p>
-                <b>Customer:</b><br />
+                <b>asiakas:</b><br />
                 <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
             </p>
             <p>
-                <b>Items</b><br />
+                <b>Tuotteet</b><br />
                 {{var items}}
             </p>
             <p>
-                <b>Total:</b><br />
+                <b>Kaikki yhteensä:</b><br />
                 {{var total}}
             </p>
             <p>
-                <b>Billing Address:</b><br />
+                <b>Laskutusosoite:</b><br />
                 {{var billingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Address:</b><br />
+                <b>Toimitusosoite:</b><br />
                 {{var shippingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Method:</b><br />
+                <b>Toimitustapa:</b><br />
                 {{var shippingMethod}}
             </p>
             <p>
-                <b>Payment Method:</b><br />
+                <b>Maksutapa:</b><br />
                 {{var paymentMethod}}
             </p>
             <p>
-                <b>Date & Time:</b><br />
+                <b>Treffiaika:</b><br />
                 {{var dateAndTime}}
             </p>
         </td>
